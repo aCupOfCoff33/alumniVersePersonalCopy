@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import WDSCult from "./HomePage/WDSCult.jsx";
+import WobbleCardDemo from "./HomePage/WDSCult.jsx";
 import AlumniWorking from "./HomePage/AlumniWorking.jsx";
 import MainImage from "../images/Logo.svg";
 import React from "react";
@@ -52,8 +52,11 @@ export default function IntroForFirstPage() {
         </div>
       </SimpleBackgroundGradient>
 
+      <SimpleBackgroundGradient>
+        <WobbleCardDemo />
+      </SimpleBackgroundGradient>
+
       <div className="relative z-20">
-        <WDSCult />
         <AlumniWorking />
       </div>
     </>

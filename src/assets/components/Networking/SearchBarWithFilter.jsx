@@ -1,62 +1,29 @@
-import React, { useState } from "react";
-import { FaFilter } from "react-icons/fa"; 
-import BarGraphFilter from "./BarGraphFilter";
-import { cards } from "./cardsData"; 
+import React from "react";
+import { FaFilter } from "react-icons/fa";
 
 const SearchBarWithFilter = ({
   searchQuery,
   setSearchQuery,
-  selectedCompanies,
-  setSelectedCompanies,
+  onFilterClick,
 }) => {
-  const [showFilter, setShowFilter] = useState(false);
-
-  const handleCompanyClick = (company) => {
-    if (selectedCompanies.includes(company)) {
-      setSelectedCompanies(selectedCompanies.filter((c) => c !== company));
-    } else {
-      setSelectedCompanies([...selectedCompanies, company]);
-    }
-  };
-
-  const companyData = cards.reduce((acc, card) => {
-    const company = card.description;
-    if (!acc[company]) {
-      acc[company] = 1;
-    } else {
-      acc[company]++;
-    }
-    return acc;
-  }, {});
-
-  const sortedCompanyData = Object.entries(companyData)
-    .map(([company, count]) => ({ company, count }))
-    .sort((a, b) => b.count - a.count);
-
   return (
-    <div className="relative mx-auto w-full max-w-lg bg-white rounded-lg shadow-md flex flex-col items-start p-4">
-      <div className="flex items-center w-full">
-        <input
-          type="text"
-          placeholder="Search Alumni..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full h-11 pl-4 text-gray-700 text-base font-bold bg-transparent outline-none rounded-lg"
-        />
-        <button onClick={() => setShowFilter(!showFilter)} className="ml-2">
-          <FaFilter size={20} />
-        </button>
-      </div>
-
-      {showFilter && (
-        <div className="w-full mt-4">
-          <BarGraphFilter
-            data={sortedCompanyData}
-            selectedCompanies={selectedCompanies}
-            onCompanyClick={handleCompanyClick}
-          />
-        </div>
-      )}
+    <div className="w-full max-w-md flex items-center bg-white rounded-lg shadow-md h-14">
+      {" "}
+      {/* Adjust the max width and height */}
+      <input
+        type="text"
+        placeholder="Search Alumni..."
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+        className="flex-grow h-full pl-4 text-gray-700 text-lg font-bold bg-transparent outline-none rounded-l-lg" // Adjusted font size and padding
+      />
+      <button
+        onClick={onFilterClick}
+        className="h-full px-4 rounded-r-lg bg-[#1c255b] text-white border-2 border-[#1c255b] hover:bg-white hover:text-[#1c255b] hover:border-[#1c255b] transition-colors duration-300"
+      >
+        <FaFilter size={20} />{" "}
+        {/* Adjusted icon size to match the smaller button */}
+      </button>
     </div>
   );
 };

@@ -5,7 +5,7 @@ export const cards = [
     title: "< John Doe > 1",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Toronto",
+    workplace: "ML Engineer",
     fieldOfStudy: "Mechanical Engineering",
     content: () => {
       return (
@@ -24,7 +24,7 @@ export const cards = [
     title: "< John asdsadasds > 2",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Seattle",
+    workplace: "Business Analyst",
     fieldOfStudy: "Computer Science",
     content: () => {
       return (
@@ -42,7 +42,7 @@ export const cards = [
     title: "< John Doe > 3",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "New York",
+    workplace: "Data Scientist",
     fieldOfStudy: "Aerospace Engineering",
     content: () => {
       return (
@@ -61,7 +61,7 @@ export const cards = [
     title: "< John Doe > 4",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Los Angeles",
+    workplace: "Aerospace Engineer",
     fieldOfStudy: "Electrical Engineering",
     content: () => {
       return (
@@ -79,7 +79,7 @@ export const cards = [
     title: "< John Doe > 5",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Ottawa",
+    workplace: "Electrical Engineer",
     fieldOfStudy: "Mechanical Engineering",
     content: () => {
       return (
@@ -97,7 +97,7 @@ export const cards = [
     title: "< John Doe > 6",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Houston",
+    workplace: "Business Analyst",
     fieldOfStudy: "Aerospace Engineering",
     content: () => {
       return (
@@ -115,7 +115,7 @@ export const cards = [
     title: "< John Doe > 7",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Toronto",
+    workplace: "Financial Analyst",
     fieldOfStudy: "Finance",
     content: () => {
       return (
@@ -132,7 +132,7 @@ export const cards = [
     title: "< John Doe > 8",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Vancouver",
+    workplace: "Economics Professor",
     fieldOfStudy: "Economics",
     content: () => {
       return (
@@ -149,7 +149,7 @@ export const cards = [
     title: "< John Doe > 9",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Montreal",
+    workplace: "Business Analyst",
     fieldOfStudy: "Business Administration",
     content: () => {
       return (
@@ -167,7 +167,7 @@ export const cards = [
     title: "< John Doe > 10",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Calgary",
+    workplace: "Accountant",
     fieldOfStudy: "Accounting",
     content: () => {
       return (
@@ -184,7 +184,7 @@ export const cards = [
     title: "< John Doe > 11",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Redmond",
+    workplace: "Computer Scientist",
     fieldOfStudy: "Computer Science",
     content: () => {
       return (
@@ -201,7 +201,7 @@ export const cards = [
     title: "< John Doe > 12",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "New York",
+    workplace: "Professor",
     fieldOfStudy: "Information Technology",
     content: () => {
       return (
@@ -218,7 +218,7 @@ export const cards = [
     title: "< John Doe > 13",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Mountain View",
+    workplace: "Data Scientist",
     fieldOfStudy: "Data Science",
     content: () => {
       return (
@@ -235,7 +235,7 @@ export const cards = [
     title: "< John Doe > 14",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "New York",
+    workplace: "Research",
     fieldOfStudy: "Physics",
     content: () => {
       return (
@@ -252,7 +252,7 @@ export const cards = [
     title: "< John Doe > 15",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "Toronto",
+    workplace: "Tech Analyst",
     fieldOfStudy: "Finance",
     content: () => {
       return (
@@ -269,7 +269,7 @@ export const cards = [
     title: "< John Doe > 16",
     src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
     ctaLink: "#",
-    workplace: "New York",
+    workplace: "Capital Markets Analyst",
     fieldOfStudy: "Economics",
     content: () => {
       return (
@@ -280,5 +280,25 @@ export const cards = [
       );
     },
   },
-  // Add more card data as needed
+  {
+    id: "17",
+    description: "Capital One",
+    title: "< John Doe > 17",
+    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    ctaLink: "#",
+    workplace: "Business Analyst",
+    fieldOfStudy: "Software Engineering",
+    content: () => {
+      return (
+        <p>
+          Lockheed Martin dolor sit amet, consectetur adipiscing elit.
+          Pellentesque et pharetra mi. Sed euismod dictum mi sit amet tincidunt.
+        </p>
+      );
+    },
+  },
+  
 ];
+
+
+export default cards;

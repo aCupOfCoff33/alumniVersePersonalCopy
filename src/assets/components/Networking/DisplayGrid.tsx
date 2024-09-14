@@ -1,7 +1,4 @@
-// From Aceturnity UI. 
-
-
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 interface DisplayGridProps {
@@ -17,13 +14,23 @@ interface DisplayGridProps {
   cardRef: React.RefObject<HTMLDivElement>;
 }
 
-export const DisplayGrid: React.FC<DisplayGridProps> = ({
+const DisplayGridWithPagination: React.FC<DisplayGridProps> = ({
   filteredCards,
   active,
   setActive,
   cardRef,
 }) => {
   const id = React.useId();
+
+  // Pagination logic
+  const [currentPage, setCurrentPage] = useState(1);
+  const cardsPerPage = 16;
+
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredCards.length / cardsPerPage);
+  const indexOfLastCard = currentPage * cardsPerPage;
+  const indexOfFirstCard = indexOfLastCard - cardsPerPage;
+  const currentCards = filteredCards.slice(indexOfFirstCard, indexOfLastCard);
 
   // Close the card when clicking outside
   useEffect(() => {
@@ -33,16 +40,26 @@ export const DisplayGrid: React.FC<DisplayGridProps> = ({
       }
     }
 
-    // Add event listener when the card is active
     if (active) {
       document.addEventListener("mousedown", handleClickOutside);
     }
 
-    // Remove event listener on cleanup
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [active, cardRef, setActive]);
+
+  const handleNextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const handlePrevPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
 
   return (
     <>
@@ -129,7 +146,7 @@ export const DisplayGrid: React.FC<DisplayGridProps> = ({
 
       {/* Grid of clickable cards */}
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-2 max-w-7xl mx-auto w-full">
-        {filteredCards.map((card) => (
+        {currentCards.map((card) => (
           <motion.div
             layoutId={`card-${card.id}-${id}`}
             key={card.id}
@@ -171,30 +188,33 @@ export const DisplayGrid: React.FC<DisplayGridProps> = ({
           </motion.div>
         ))}
       </ul>
+
+      {/* Pagination controls */}
+      <div className="flex justify-center items-center mt-4 space-x-4 mb-12">
+        <button
+          onClick={handlePrevPage}
+          disabled={currentPage === 1}
+          className={`px-4 py-2 border rounded-lg ${
+            currentPage === 1 ? "opacity-50 cursor-not-allowed" : ""
+          }`}
+        >
+          ←
+        </button>
+        <p>
+          Page <strong>{currentPage}</strong> of <strong>{totalPages}</strong>
+        </p>
+        <button
+          onClick={handleNextPage}
+          disabled={currentPage === totalPages}
+          className={`px-4 py-2 border rounded-lg ${
+            currentPage === totalPages ? "opacity-50 cursor-not-allowed" : ""
+          }`}
+        >
+          →
+        </button>
+      </div>
     </>
   );
 };
 
-export const CloseIcon = () => {
-  return (
-    <motion.svg
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="h-4 w-4 text-black"
-    >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M18 6l-12 12" />
-      <path d="M6 6l12 12" />
-    </motion.svg>
-  );
-};
+export default DisplayGridWithPagination;

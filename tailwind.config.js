@@ -15,7 +15,7 @@ export default {
         },
       },
       animation: {
-        "logo-cloud": "logo-cloud 45s linear infinite", 
+        "logo-cloud": "logo-cloud 50s linear infinite", 
         'gradient-x': 'gradient-x 8s ease infinite',
       },
       plugins: [],
