@@ -6,8 +6,8 @@ import React from "react";
 
 export const SimpleBackgroundGradient = ({ children }) => {
   return (
-    <div className="relative h-screen w-full max-w-[100vw] bg-gradient-to-r from-[#0A0F1E] via-[#1c255b] to-[#000526] animate-gradient-x overflow-hidden">
-      <div className="absolute inset-0 z-10 flex items-center justify-center">
+    <div className="min-h-screen w-screen bg-gradient-to-r from-[#0A0F1E] via-[#1c255b] to-[#000526] animate-gradient-x">
+      <div className="flex items-center justify-center w-full h-full">
         {children}
       </div>
     </div>
@@ -18,21 +18,26 @@ export default function IntroForFirstPage() {
   return (
     <>
       <SimpleBackgroundGradient>
-        <div className="absolute z-30 inset-0 flex items-center justify-center text-white font-bold px-4 text-3xl text-center md:text-4xl lg:text-7xl">
-          <div className="flex flex-col items-center justify-center min-h-[120vh] w-full">
+        {/* Adjust absolute positioning */}
+        <div className="absolute z-30 inset-0 flex flex-col items-center justify-center text-white font-bold px-4 text-3xl text-center md:text-4xl lg:text-7xl">
+          <div className="flex flex-col items-center justify-center w-full">
             {/* Main Image */}
             <img
               src={MainImage}
               alt="Main Image"
-              className="w-[200px] sm:w-[300px] lg:w-[400px] mb-6"
+              className="w-[200px] sm:w-[300px] lg:w-[400px] mb-4" // Reduced bottom margin for MainImage
             />
 
-            <div className="text-center text-white text-[40px] font-bold font-['DM Sans'] mb-6">
+            <div className="text-center text-white text-[40px] font-bold font-['DM Sans'] mb-2">
+              {" "}
+              {/* Reduced margin-bottom */}
               Welcome to the <br />
               Western Developer Database!
             </div>
 
-            <div className="text-center text-white text-xl font-normal font-['DM Sans'] mb-6">
+            <div className="text-center text-white text-xl font-normal font-['DM Sans'] mb-4">
+              {" "}
+              {/* Reduced margin-bottom */}
               Explore alumni who have worked at the top tech companies around
               the world....
             </div>
@@ -52,10 +57,15 @@ export default function IntroForFirstPage() {
         </div>
       </SimpleBackgroundGradient>
 
+      {/* The second section */}
       <SimpleBackgroundGradient>
-        <WobbleCardDemo />
+        <div className="relative z-20 lg:mt-[-100px] sm:mt-[-96px]">
+          {" "}
+          <WobbleCardDemo />
+        </div>
       </SimpleBackgroundGradient>
 
+      {/* AlumniWorking section */}
       <div className="relative z-20">
         <AlumniWorking />
       </div>

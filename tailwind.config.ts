@@ -25,7 +25,7 @@ const {
           keyframes: {
             moveHorizontal: {
               "0%": {
-                transform: "translateX(-50%) translateY(-10%)",
+                transform: "translateX(0%)",
               },
               "50%": {
                 transform: "translateX(50%) translateY(10%)",

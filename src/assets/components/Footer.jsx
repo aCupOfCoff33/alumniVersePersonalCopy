@@ -11,21 +11,33 @@ export default function Footer() {
             <div className="text-white text-xs sm:text-sm md:text-base font-bold font-['DM Sans']">
               <span>
                 A product by{" "}
-                <Link to="#" className="hover:text-gray-400">
+                <Link to="https://westerndev-website-theta.vercel.app/" className="hover:text-gray-400" target="_blank">
                   Western Developer’s Society
                 </Link>
               </span>
               <br />
               <span>Built by </span>
-              <Link to="#" className="hover:text-gray-400">
+              <Link
+                to="https://www.linkedin.com/in/aaryanj"
+                className="hover:text-gray-400"
+                target="_blank"
+              >
                 @Aaryan
               </Link>
               <span>, </span>
-              <Link to="#" className="hover:text-gray-400">
+              <Link
+                to="https://www.linkedin.com/in/lblommesteyn/"
+                className="hover:text-gray-400"
+                target="_blank"
+              >
                 @Luke
               </Link>
               <span> and </span>
-              <Link to="#" className="hover:text-gray-400">
+              <Link
+                to="=https://www.linkedin.com/in/sharaf-syed/"
+                className="hover:text-gray-400"
+                target="_blank"
+              >
                 @Sharaf
               </Link>
             </div>
@@ -49,17 +61,33 @@ export default function Footer() {
 
             {/* Right column of links */}
             <div className="flex flex-col items-start sm:items-end space-y-2 text-white text-xs sm:text-sm md:text-base font-bold font-['DM Sans']">
-              <Link to="#" className="hover:text-gray-400">
+              <Link
+                to="https://www.instagram.com/westerndevsociety"
+                className="hover:text-gray-400"
+                target="_blank"
+              >
                 Instagram
               </Link>
-              <Link to="#" className="hover:text-gray-400">
+              <Link
+                to="https://www.linkedin.com/company/western-dev-society"
+                className="hover:text-gray-400"
+                target="_blank"
+              >
                 LinkedIn
               </Link>
-              <Link to="#" className="hover:text-gray-400">
+              <Link
+                to="https://discord.gg/4RXMZwyq"
+                className="hover:text-gray-400"
+                target="_blank"
+              >
                 Discord
               </Link>
-              <Link to="#" className="hover:text-gray-400">
-                X (Twitter)
+              <Link
+                to="https://www.facebook.com/westerndevsociety"
+                target="_blank"
+                className="hover:text-gray-400"
+              >
+                Facebook
               </Link>
             </div>
           </div>

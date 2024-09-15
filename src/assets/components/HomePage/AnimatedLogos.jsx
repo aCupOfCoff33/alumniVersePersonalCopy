@@ -1,5 +1,7 @@
-{/* The URL's to the Logos should be changed eventually. they just need to be in the correct orientation and size, so it looks really bad now\
-but will be changed eventually */}
+{
+  /* The URL's to the Logos should be changed eventually. they just need to be in the correct orientation and size, so it looks really bad now\
+but will be changed eventually */
+}
 
 const logos = [
   {
@@ -52,9 +54,9 @@ const AnimatedLogoCloud = () => {
               "linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 95%)",
           }}
         >
-          {Array(5)
+          {Array(6) // Increase repetition to reduce jitter
             .fill(null)
-            .map((index) => (
+            .map((_, index) => (
               <div
                 key={index}
                 className="flex shrink-0 animate-logo-cloud flex-row justify-around gap-6"
@@ -63,7 +65,7 @@ const AnimatedLogoCloud = () => {
                   <img
                     key={key}
                     src={logo.url}
-                    className="h-10 w-28 px-2 brightness-0  dark:invert"
+                    className="h-10 w-28 px-2 brightness-0 dark:invert"
                     alt={`${logo.name}`}
                   />
                 ))}

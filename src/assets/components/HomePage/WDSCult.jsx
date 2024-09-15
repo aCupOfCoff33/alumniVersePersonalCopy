@@ -1,62 +1,78 @@
 "use client";
-
 import React from "react";
-import { WobbleCard } from "../ui/wobble-card";
-import image1 from "./wobbley/image1.jpg";
-import image2 from "./wobbley/image2.jpg";
+import Image1 from "./wobbley/Picture1.jpg";
+import Image2 from "./wobbley/image2.jpg"; // Replace with correct image paths
 
-
-export default function WobbleCardDemo() {
+export function ResponsiveCardDemo() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
-      <WobbleCard
-        containerClassName="col-span-1 lg:col-span-2 h-full min-h-[500px] lg:min-h-[300px] bg-[#090D28]"
-        className=""
-      >
-        <div className="max-w-xs">
-          <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            WESTERN UNIVERSITY’S STRONGEST ALUMNI NETWORK DESIGNED WITH YOU IN
-            MIND
+    <div className="max-w-7xl mx-auto p-6 space-y-6">
+      {/* First Section */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+        {/* Text Block */}
+        <div className="space-y-4">
+          <h2 className="text-white text-3xl lg:text-5xl font-bold font-['DM Sans']">
+            WESTERN UNIVERSITY’S <br />
+            <span className="underline">STRONGEST</span> ALUMNI
+            <br />
+            NETWORK DESIGNED WITH YOU IN MIND
           </h2>
-          <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            Connect with over 300 Western Alumni and turn your career dreams
-            into reality with the support of an unmatched network.
+          <p className="text-white text-lg lg:text-xl">
+            Connect with over{" "}
+            <span className="underline font-bold">300 Western Alumni</span> and
+            turn your career dreams into reality with the support of an
+            unmatched network.
           </p>
         </div>
-        <img
-          src={image1}
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
-        />
-      </WobbleCard>
-      <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-        <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-          UNLOCK OPPORTUNITIES AT YOUR FINGERTIPS.
+        {/* Image Block */}
+        <div className="relative">
+          <img
+            src={Image1}
+            alt="Alumni Network"
+            className="rounded-lg object-cover w-full h-full"
+          />
+        </div>
+      </div>
+
+      {/* Second Section */}
+      <div className="bg-[#2f41b0] p-6 rounded-lg space-y-4">
+        <h2 className="text-white text-2xl lg:text-4xl font-bold font-['DM Sans']">
+          UNLOCK OPPORTUNITIES <br />
+          AT YOUR FINGERTIPS
         </h2>
-        <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+        <p className="text-white text-lg lg:text-xl">
           Find your path with access to alumni who have excelled in top
-          industries worldwide
+          industries worldwide.
         </p>
-      </WobbleCard>
-      <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-[#001281] min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
-        <div className="max-w-sm">
-          <h2 className="max-w-sm md:max-w-lg text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            CONNECT WITH THE BEST AND BUILD LASTING CAREER CONNECTIONS
+      </div>
+
+      {/* Third Section */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+        {/* Text Block */}
+        <div className="space-y-4">
+          <h2 className="text-white text-3xl lg:text-5xl font-bold font-['DM Sans']">
+            CONNECT WITH THE BEST <br />
+            AND BUILD LASTING <br />
+            CAREER CONNECTIONS
           </h2>
-          <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-            Access our Alumni Network and engage with leaders driving change in their industries - and discover how you can be part of that change too
+          <p className="text-white text-lg lg:text-xl">
+            Access our Alumni Network and engage with leaders driving change in
+            their industries —{" "}
+            <span className="underline font-bold">
+              and discover how you can be part of that change too.
+            </span>
           </p>
         </div>
-        <img
-          src= {image2} 
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-10 md:-right-[40%] lg:-right-[20%] -bottom-20 object-contain rounded-2xl"
-        />
-      </WobbleCard>
+        {/* Image Block */}
+        <div className="relative">
+          <img
+            src={Image2}
+            alt="Career Connections"
+            className="rounded-lg object-cover w-full h-full"
+          />
+        </div>
+      </div>
     </div>
   );
 }
+
+export default ResponsiveCardDemo;

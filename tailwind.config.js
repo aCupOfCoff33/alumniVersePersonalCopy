@@ -7,7 +7,7 @@ export default {
         "logo-cloud": {
           
           from: { transform: "translateX(0)" },
-          to: { transform: "translateX(calc(-100% - 4rem))" },
+          to: { transform: "translateX(calc(-200%))" }, // Adjust the calculation to ensure smoother looping
         },
         'gradient-x': {
           '0%, 100%': { 'background-position': '0% 50%' },
@@ -15,7 +15,7 @@ export default {
         },
       },
       animation: {
-        "logo-cloud": "logo-cloud 50s linear infinite", 
+        "logo-cloud": "logo-cloud 60s linear infinite", // Slow down the animation to make it smoother
         'gradient-x': 'gradient-x 8s ease infinite',
       },
       plugins: [],
