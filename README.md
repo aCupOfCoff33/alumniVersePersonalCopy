@@ -13,7 +13,8 @@ The home screen is the starting point for your journey. It greets you with:
 - A prominent **"Start Networking"** button to jump straight into exploring alumni connections.  
 - Highlights on the platform’s purpose and benefits.  
 
-![Home Screen](path/to/home_screen_screenshot.png)
+![Home Screen](https://github.com/user-attachments/assets/b28cbb5f-d61d-45b6-aca3-7aa07a4f055d)
+
 
 ---
 
@@ -24,7 +25,8 @@ An interactive FAQ section answers common questions about the platform.
 - Expandable sections to make navigation seamless.  
 - Offers detailed insights into how to use the platform effectively.  
 
-![FAQ Section](path/to/faq_section_screenshot.png)
+![FAQ Section](https://github.com/user-attachments/assets/d2226739-4b5f-4992-ab0a-a6170646cdcb)
+
 
 ---
 
@@ -35,7 +37,8 @@ The Contact Me page encourages users to provide feedback or ask questions.
 - A direct **"Email Us"** button enables seamless communication.  
 - Designed to enhance user interaction and engagement.  
 
-![Contact Me Section](path/to/contact_me_screenshot.png)
+![Contact Me Section](https://github.com/user-attachments/assets/5c4743b3-433a-411d-b88d-10e6fa72b6d1)
+
 
 ---
 
@@ -58,7 +61,10 @@ A powerful tool to explore alumni data with advanced filtering capabilities:
 Explore alumni profiles and learn about their:  
 - Current roles, companies, and industries.  
 - Educational background and career achievements.  
-- Workplaces and fields of study.  
+- Workplaces and fields of study.
+
+![Example of Profile](https://github.com/user-attachments/assets/a1edbb22-ae32-4215-b899-27075d946fdf)
+
 
 ---
 
