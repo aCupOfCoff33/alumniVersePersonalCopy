@@ -25,7 +25,7 @@ export default function IntroForFirstPage() {
             <img
               src={MainImage}
               alt="Main Image"
-              className="w-[200px] sm:w-[300px] lg:w-[400px] mb-4" // Reduced bottom margin for MainImage
+              className="w-[200px] sm:w-[300px] lg:w-[400px] mb-4" 
             />
 
             <div className="text-center text-white text-[40px] font-bold font-['DM Sans'] mb-2">

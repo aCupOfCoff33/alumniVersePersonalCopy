@@ -1,0 +1,166 @@
+{
+    "Name": "Hannah Mahr",
+    "Headline": "Ivey HBA '25 Candidate",
+    "Location": "Canada",
+    "LinkedIn URL": "https://www.linkedin.com/in/hannahmahr",
+    "Profile Image URL": "N/A",
+    "Experience": [
+        {
+            "locationName": "Toronto, Ontario, Canada",
+            "entityUrn": "urn:li:fs_position:(ACoAACfl_eMBhmSZCDEE3A3htQqVm4WdjrMZr1c,2371195243)",
+            "geoLocationName": "Toronto, Ontario, Canada",
+            "geoUrn": "urn:li:fs_geo:100025096",
+            "companyName": "JLL",
+            "timePeriod": {
+                "endDate": {
+                    "month": 8,
+                    "year": 2024
+                },
+                "startDate": {
+                    "month": 6,
+                    "year": 2024
+                }
+            },
+            "description": "Fortune 200 corporate strategy and competitive intelligence",
+            "company": {
+                "employeeCountRange": {
+                    "start": 10001
+                },
+                "industries": [
+                    "Real Estate"
+                ]
+            },
+            "title": "Corporate Strategy Analyst",
+            "region": "urn:li:fs_region:(ca,0)",
+            "companyUrn": "urn:li:fs_miniCompany:3178",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQHfAF73OvlY2w/company-logo_"
+        },
+        {
+            "locationName": "Toronto, Ontario, Canada",
+            "entityUrn": "urn:li:fs_position:(ACoAACfl_eMBhmSZCDEE3A3htQqVm4WdjrMZr1c,2168798177)",
+            "geoLocationName": "Toronto, Ontario, Canada",
+            "geoUrn": "urn:li:fs_geo:100025096",
+            "companyName": "Deloitte",
+            "timePeriod": {
+                "endDate": {
+                    "month": 8,
+                    "year": 2023
+                },
+                "startDate": {
+                    "month": 5,
+                    "year": 2023
+                }
+            },
+            "description": "Consulting, supply chain & network operations ",
+            "company": {
+                "employeeCountRange": {
+                    "start": 10001
+                },
+                "industries": [
+                    "Management Consulting"
+                ]
+            },
+            "title": "Business Analyst",
+            "region": "urn:li:fs_region:(ca,0)",
+            "companyUrn": "urn:li:fs_miniCompany:1038",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGNtpblgQpJoQ/company-logo_"
+        },
+        {
+            "locationName": "Oakville, Ontario, Canada",
+            "entityUrn": "urn:li:fs_position:(ACoAACfl_eMBhmSZCDEE3A3htQqVm4WdjrMZr1c,1971418320)",
+            "geoLocationName": "Oakville, Ontario, Canada",
+            "geoUrn": "urn:li:fs_geo:100265826",
+            "companyName": "Inovex Inc.",
+            "timePeriod": {
+                "endDate": {
+                    "month": 1,
+                    "year": 2023
+                },
+                "startDate": {
+                    "month": 5,
+                    "year": 2022
+                }
+            },
+            "company": {
+                "employeeCountRange": {
+                    "start": 11,
+                    "end": 50
+                },
+                "industries": [
+                    "Computer Software"
+                ]
+            },
+            "title": "Marketing & Product Intern",
+            "region": "urn:li:fs_region:(ca,0)",
+            "companyUrn": "urn:li:fs_miniCompany:2586707",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C560BAQFdDNVifuVjhw/company-logo_"
+        }
+    ],
+    "Education": [
+        {
+            "entityUrn": "urn:li:fs_education:(ACoAACfl_eMBhmSZCDEE3A3htQqVm4WdjrMZr1c,892259879)",
+            "school": {
+                "objectUrn": "urn:li:school:19938",
+                "entityUrn": "urn:li:fs_miniSchool:19938",
+                "active": true,
+                "schoolName": "Ivey Business School at Western University",
+                "trackingId": "O+pTxVvnQAu0f8MUHq4TVw==",
+                "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQETcv6io6E1IA/company-logo_"
+            },
+            "timePeriod": {
+                "endDate": {
+                    "year": 2025
+                },
+                "startDate": {
+                    "year": 2023
+                }
+            },
+            "description": "Dean's Honour List",
+            "degreeName": "Honours Business Administration (HBA)",
+            "schoolName": "Ivey Business School at Western University",
+            "schoolUrn": "urn:li:fs_miniSchool:19938"
+        },
+        {
+            "entityUrn": "urn:li:fs_education:(ACoAACfl_eMBhmSZCDEE3A3htQqVm4WdjrMZr1c,740671175)",
+            "school": {
+                "objectUrn": "urn:li:school:10852",
+                "entityUrn": "urn:li:fs_miniSchool:10852",
+                "active": true,
+                "schoolName": "Western University",
+                "trackingId": "WIIX1UXgQo60Lx1RxhOiUg==",
+                "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQExbN4XpVuocQ/company-logo_"
+            },
+            "timePeriod": {
+                "endDate": {
+                    "month": 5,
+                    "year": 2023
+                },
+                "startDate": {
+                    "month": 8,
+                    "year": 2021
+                }
+            },
+            "description": "Dean's Honour List\nWestern Scholarship of Distinction \n\nActivities and Societies: Pre-Business Students' Network (PBSN), Global Research and Consulting (GRC), Western Investment Club, Western Capital Markets, UWO Danceforce",
+            "degreeName": "Bachelor's",
+            "schoolName": "Western University",
+            "fieldOfStudy": "Business Management & Organizational Studies",
+            "schoolUrn": "urn:li:fs_miniSchool:10852"
+        }
+    ],
+    "Contact Information": {
+        "email_address": null,
+        "websites": [],
+        "twitter": [],
+        "birthdate": null,
+        "ims": null,
+        "phone_numbers": []
+    },
+    "Member Badges": {
+        "premium": false,
+        "influencer": false,
+        "entityUrn": "urn:li:fs_memberBadges:ACoAACfl_eMBhmSZCDEE3A3htQqVm4WdjrMZr1c",
+        "openLink": false,
+        "jobSeeker": false,
+        "$type": "com.linkedin.voyager.identity.profile.MemberBadges"
+    }
+}

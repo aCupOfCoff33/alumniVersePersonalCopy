@@ -1,19 +1,20 @@
 export const cards = [
   {
     id: "1",
-    description: "Lockheed Martin",
-    title: "< John Doe > 1",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    description: "Aaryan Joharapurkar",
+    title: "Financial Services",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
-    workplace: "ML Engineer",
-    fieldOfStudy: "Mechanical Engineering",
+    workplace: "Government of Canada",
+    fieldOfStudy: "Software Engineering with Ivey A.E.O",
     content: () => {
       return (
         <p>
-          Lockheed Martin dolor sit amet, consectetur adipiscing elit.
-          Vestibulum varius, purus ac dictum fermentum, nisl erat pulvinar
-          lacus, ac convallis mauris risus at nulla. Nam in varius nisi, id
-          tincidunt ipsum.
+          Hey! I'm Aaryan, a SWE with Ivey AEO. I love to combine my passion for
+          technology with my business acumen to create innovative solutions. I'm
+          currently working at the Government of Canada as a Financial Services
+          Analyst. Feel free to reach out to me for any advice or networking
+          opportunities! I always love a good chat!
         </p>
       );
     },
@@ -22,7 +23,7 @@ export const cards = [
     id: "2",
     description: "Microsoft",
     title: "< John asdsadasds > 2",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Business Analyst",
     fieldOfStudy: "Computer Science",
@@ -40,7 +41,7 @@ export const cards = [
     id: "3",
     description: "Lockheed Martin",
     title: "< John Doe > 3",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Data Scientist",
     fieldOfStudy: "Aerospace Engineering",
@@ -59,7 +60,7 @@ export const cards = [
     id: "4",
     description: "Lockheed Martin",
     title: "< John Doe > 4",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Aerospace Engineer",
     fieldOfStudy: "Electrical Engineering",
@@ -77,7 +78,7 @@ export const cards = [
     id: "5",
     description: "Lockheed Martin",
     title: "< John Doe > 5",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Electrical Engineer",
     fieldOfStudy: "Mechanical Engineering",
@@ -95,7 +96,7 @@ export const cards = [
     id: "6",
     description: "Lockheed Martin",
     title: "< John Doe > 6",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Business Analyst",
     fieldOfStudy: "Aerospace Engineering",
@@ -113,7 +114,7 @@ export const cards = [
     id: "7",
     description: "RBC",
     title: "< John Doe > 7",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Financial Analyst",
     fieldOfStudy: "Finance",
@@ -130,7 +131,7 @@ export const cards = [
     id: "8",
     description: "RBC",
     title: "< John Doe > 8",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Economics Professor",
     fieldOfStudy: "Economics",
@@ -147,7 +148,7 @@ export const cards = [
     id: "9",
     description: "RBC",
     title: "< John Doe > 9",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Business Analyst",
     fieldOfStudy: "Business Administration",
@@ -165,7 +166,7 @@ export const cards = [
     id: "10",
     description: "RBC",
     title: "< John Doe > 10",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Accountant",
     fieldOfStudy: "Accounting",
@@ -182,7 +183,7 @@ export const cards = [
     id: "11",
     description: "Microsoft",
     title: "< John Doe > 11",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Computer Scientist",
     fieldOfStudy: "Computer Science",
@@ -199,7 +200,7 @@ export const cards = [
     id: "12",
     description: "Microsoft",
     title: "< John Doe > 12",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Professor",
     fieldOfStudy: "Information Technology",
@@ -216,7 +217,7 @@ export const cards = [
     id: "13",
     description: "Google",
     title: "< John Doe > 13",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Data Scientist",
     fieldOfStudy: "Data Science",
@@ -233,7 +234,7 @@ export const cards = [
     id: "14",
     description: "Western University",
     title: "< John Doe > 14",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Research",
     fieldOfStudy: "Physics",
@@ -250,7 +251,7 @@ export const cards = [
     id: "15",
     description: "TD Bank",
     title: "< John Doe > 15",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Tech Analyst",
     fieldOfStudy: "Finance",
@@ -267,7 +268,7 @@ export const cards = [
     id: "16",
     description: "CIBC",
     title: "< John Doe > 16",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Capital Markets Analyst",
     fieldOfStudy: "Economics",
@@ -284,7 +285,7 @@ export const cards = [
     id: "17",
     description: "Capital One",
     title: "< John Doe > 17",
-    src: "https://media.licdn.com/dms/image/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_800_800/0/1691356063893?e=1729728000&v=beta&t=ROzg-fZN2ugVoQMQVw7DWsJBdEMyL-Y-G7lHmXn8EtY",
+    src: "https://media.licdn.com/dms/image/v2/D5603AQFYSxSiO4k4SA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691356063893?e=2147483647&v=beta&t=weqJ4vluDAAMVgNli_rSrFa1HxtbYDBkbbFNpYe0CKc",
     ctaLink: "#",
     workplace: "Business Analyst",
     fieldOfStudy: "Software Engineering",
@@ -297,8 +298,6 @@ export const cards = [
       );
     },
   },
-  
 ];
-
 
 export default cards;

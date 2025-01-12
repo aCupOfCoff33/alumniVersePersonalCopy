@@ -11,7 +11,11 @@ export default function Footer() {
             <div className="text-white text-xs sm:text-sm md:text-base font-bold font-['DM Sans']">
               <span>
                 A product by{" "}
-                <Link to="https://westerndev-website-theta.vercel.app/" className="hover:text-gray-400" target="_blank">
+                <Link
+                  to="https://westerndev-website-theta.vercel.app/"
+                  className="hover:text-gray-400"
+                  target="_blank"
+                >
                   Western Developer’s Society
                 </Link>
               </span>
@@ -34,7 +38,7 @@ export default function Footer() {
               </Link>
               <span> and </span>
               <Link
-                to="=https://www.linkedin.com/in/sharaf-syed/"
+                to="https://www.linkedin.com/in/sharaf-syed/"
                 className="hover:text-gray-400"
                 target="_blank"
               >
@@ -44,23 +48,24 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between w-full sm:w-auto space-y-6 sm:space-y-0 sm:space-x-8">
+            {/* Left column of links */}
             <div className="flex flex-col items-start sm:items-end space-y-2 text-white text-xs sm:text-sm md:text-base font-bold font-['DM Sans']">
-              <Link to="#" className="hover:text-gray-400">
+              <Link to="/" className="hover:text-gray-400">
                 Home
               </Link>
-              <Link to="#network" className="hover:text-gray-400">
+              <Link to="/network" className="hover:text-gray-400">
                 Our Network
               </Link>
-              <Link to="#about" className="hover:text-gray-400">
+              <Link to="/about" className="hover:text-gray-400">
                 About Us
               </Link>
-              <Link to="#contact" className="hover:text-gray-400">
+              <Link to="/contact" className="hover:text-gray-400">
                 Contact Us
               </Link>
             </div>
 
-            {/* Right column of links */}
-            <div className="flex flex-col items-start sm:items-end space-y-2 text-white text-xs sm:text-sm md:text-base font-bold font-['DM Sans']">
+            {/* Right column of links, aligned to the right on mobile */}
+            <div className="flex flex-col items-start sm:items-end space-y-2 text-white text-xs sm:text-sm md:text-base font-bold font-['DM Sans'] sm:text-right">
               <Link
                 to="https://www.instagram.com/westerndevsociety"
                 className="hover:text-gray-400"

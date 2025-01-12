@@ -1,49 +1,53 @@
 const accordionItems = [
   {
-    title:
-      "The cheapest, fastest, and most reliable components are those that aren’t there. (Gordon Bell)",
+    title: "📚 What is AlumniVerse?",
     content:
-      "The best thing about a boolean is even if you are wrong, you are only off by a bit. (Anonymous) It’s ridiculous to live 100 years and only be able to remember 30 million bytes. You know, less than a compact disc.",
+      "AlumniVerse is a platform designed to connect alumni from educational institutions, enabling networking, mentorship, and career opportunities. It offers advanced search and filtering tools to explore alumni data efficiently.",
   },
   {
-    title: "First, solve the problem. Then, write the code. (John Johnson)",
+    title: "🔍 How can I search for alumni?",
     content:
-      "Their best approach so far has been to take all the old brochures and stamp the words ‘user-friendly’ on the cover. (Bill Gates) Measuring programming progress",
+      "You can search for alumni by applying filters based on their workplace, field of study, or location. Use the search bar and filtering options on the network page to find alumni relevant to your interests.",
   },
   {
-    title:
-      "There are two ways to write error-free programs; only the third one works. (Alan J. Perlis)",
+    title: "🛡️ How does AlumniVerse ensure data privacy?",
     content:
-      "Measuring programming progress by lines of code is like measuring aircraft building progress by weight. (Bill Gates) Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration. (Stan Kelly-Bootle)",
+      "We prioritize privacy by not displaying alumni images or personal contact information. All data is sourced ethically and presented in a way that complies with privacy standards.",
   },
   {
-    title:
-      "Most of you are familiar with the virtues of a programmer. There are three, of course: laziness, impatience, and hubris. (Larry Wall)",
+    title: "🖥️ What information can I find about alumni?",
     content:
-      "First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack. (George Carrette)",
+      "The platform provides insights into alumni's companies, roles, fields of study, and locations. This information is designed to help users find mentors or network with professionals in their area of interest.",
   },
   {
-    title:
-      "The cheapest, fastest, and most reliable components are those that aren’t there. (Gordon Bell)",
+    title: "🌐 How is alumni data collected?",
     content:
-      "The best thing about a boolean is even if you are wrong, you are only off by a bit. (Anonymous) It’s ridiculous to live 100 years and only be able to remember 30 million bytes. You know, less than a compact disc.",
+      "Alumni data is collected using a custom web scraping tool that gathers publicly available information. This ensures that the platform has accurate and up-to-date data while adhering to ethical guidelines.",
   },
   {
-    title: "First, solve the problem. Then, write the code. (John Johnson)",
+    title: "🚀 How do I get started?",
     content:
-      "Their best approach so far has been to take all the old brochures and stamp the words ‘user-friendly’ on the cover. (Bill Gates) Measuring programming progress",
+      "Simply head to the homepage and click the 'Start Networking' button to access the alumni database. Use the search bar or filters to explore profiles and gain valuable insights.",
   },
   {
-    title:
-      "There are two ways to write error-free programs; only the third one works. (Alan J. Perlis)",
+    title: "📈 What are the bar graphs for?",
     content:
-      "Measuring programming progress by lines of code is like measuring aircraft building progress by weight. (Bill Gates) Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration. (Stan Kelly-Bootle)",
+      "The bar graphs provide a visual representation of alumni distribution based on selected criteria like companies, fields of study, and locations. This makes it easier to identify trends and opportunities.",
   },
   {
-    title:
-      "Most of you are familiar with the virtues of a programmer. There are three, of course: laziness, impatience, and hubris. (Larry Wall)",
+    title: "📧 How can I contact the support team?",
     content:
-      "First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack. (George Carrette)",
+      "If you have questions or suggestions, you can visit the Contact Me page and click the 'Email Us' button. We’re always happy to hear from you and improve the platform based on your feedback.",
+  },
+  {
+    title: "💻 Can I access AlumniVerse on my mobile device?",
+    content:
+      "Yes, AlumniVerse is designed to be mobile-responsive, allowing you to access the platform on both desktop and mobile devices seamlessly.",
+  },
+  {
+    title: "🎉 What are the future plans for AlumniVerse?",
+    content:
+      "We aim to add more filters, improve data visualization, and introduce real-time updates for alumni data. Stay tuned for new features and enhancements!",
   },
 ];
 
